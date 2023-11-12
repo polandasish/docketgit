@@ -1,0 +1,11 @@
+ strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+
+strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: Recreate
