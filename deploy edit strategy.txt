@@ -1,6 +1,6 @@
  strategy:
     rollingUpdate:
-      maxSurge: 1
+      maxSurge: 5
       maxUnavailable: 1
     type: RollingUpdate
 
