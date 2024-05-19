@@ -1,0 +1,14 @@
+#!/bin/bash
+
+function_newdir() {
+
+       read -p "enter dir name": dir
+       mkdir /root/script/$dir
+       echo "new dir created under path: /root/script"
+       echo "$(ls -l /root/script)"
+
+
+
+}
+
+function_newdir
